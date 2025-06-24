@@ -152,24 +152,34 @@ img:hover{
     margin-bottom: 180px; 
 }
 
+/* Section Four */
+
+.sectionfour{
+    height:450px;
+
+}
 .footer{
+
+    margin-top:30px;
     background-color: #e0b049; 
-    padding: 20px;
+    padding: 40px 20px;
     border: 2px solid #ddd; 
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 80px; 
+    border-radius: 15px;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 130px; 
     width: 80%; 
     margin-left: 350px; 
-    margin-right: 350px; 
-   
+    margin-right: 550px;
+    max-height:250px;
+    max-width:1150px;
+    box-sizing: border-box;
 }
 
 footer{
-    margin-top:150px;
     font-size: 16px;
     color: #333;
-    
+    text-align: center;
+    width:100%;
 }
 
 .footer:hover{
@@ -177,19 +187,25 @@ footer{
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.calltoaction{
-    text-align:left;
-    font-size:55px;
+footer h1, footer p {
+    margin: 0 0 20px 0; 
+}
+
+.footerbutton {
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.footerbutton:hover {
+    background-color: #555;
 }
 
 .footerp{
-   
-   font-size:25px;
-   margin-left:195px;
-}
-
-.footerbutton{
-    transform:scale(1);
-    margin-bottom:150px;
-    
+    font-size:35px;
 }
